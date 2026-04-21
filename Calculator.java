@@ -8,7 +8,15 @@ class Calculator {
     int mul(int numero1, int numero2){         //Hace Omar
         return numero1 * numero2;
     }
-    int mod(int a, int b){ return 0; } //Hace Jhovi
+    int mod(int a, int b){
+        int mod;
+        if(b == 0) {
+            System.out.println("Nose puede dividir por 0");
+            mod = 0;
+        }
+        else mod = a % b;
+        return mod;
+    } //Hace Jhovi
     double sub(double a, double b){
         return a-b ;
     } //Jazmin
