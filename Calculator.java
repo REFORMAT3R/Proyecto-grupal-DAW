@@ -1,8 +1,7 @@
 class Calculator {
 int add(int a, int b){ return 0; } //Hace Mario
-public int sub(int a, int b){
-    int sub = a-b;
-    return sub;
+int sub(int a, int b){
+    return a-b ;
 } //Jazmin
 
 int mul(int a, int b){ return 0; } //Hace Omar
