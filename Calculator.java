@@ -1,7 +1,10 @@
 class Calculator {
     int add(int a, int b){ return 0; } //Hace Mario
-    int sub(int a, int b){ return 0; } //Hace Jazmin
-    int mul(int a, int b){ return 0; } //Hace Omar
+
+    double sub(double a, double b){
+        return a-b ;
+    } //Jazmin
+
     double div (double numero1, double numero2){ 
          if(numero2 == 0) {
             System.out.println("No se puede dividir entre 0");
@@ -14,5 +17,8 @@ class Calculator {
          }
     } //Hace Denny
 
-    int mod(int a, int b){ return 0; } //Hace Jhovi
+    int mul(int a, int b){ return 0; } //Hace Omar
+
+    int mod(int a, int b){ return 0; } //Hace Jhovi 
+
 }
