@@ -1,7 +1,7 @@
 class Calculator {
 
-    int add(int a, int b){
-        int suma = a + b;
+    double add(double a, double b){
+        double suma = a + b;
         System.out.println("El resultado de la adición es:");
         return suma;
     }//Hace Mario
@@ -10,14 +10,14 @@ class Calculator {
         return a-b ;
     } //Jazmin
 
-    int mul(int numero1, int numero2){
+    double mul(double numero1, double numero2){
         return numero1 * numero2;
     }//Hace Omar
 
-    int mod(int a, int b){
-        int mod;
+    double mod(double a, double b){
+        double mod;
         if(b == 0) {
-            System.out.println("Nose puede dividir por 0");
+            System.out.println("No se puede dividir por 0");
             mod = 0;
         }
         else mod = a % b;
